@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            textarea{
+                background-color:darkcyan;
+            }
+            body{
+                background-color: gainsboro;
+                
+            }
+           h {
+color: darkmagenta;
+text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>These are form written used SelectElement!</h1>
+        <p>Select the best car you like</p>
+        <form>
+<label for="cars">Choose the best mark!</label><br>
+<select id="cars" name="car" size="3" multiple>
+    <option value="Toyota">Toyota</option>
+    <option value="Suzuki">Suzuki</option>
+    <option value="Audi">Audi</option>
+    <option value="Vigo">Vigo</option>
+    <option value="Lava4">Lava4</option>
+    <option value="RangeRover">RangeRover</option>
+</select>
+<input type="image" src="myimage.jpg" alt="submit" width="40px"; height="40px">
+        </form>
+        <p>Please submit your opinion here</p>
+        <h2>The form element that displayed into the text area</h2>
+<form>
+    <textarea name="message" rows="10" cols="30">"specify the type attribute for the button element. Different browsers may use different default types for the button element."
+</textarea><br>
+<p><b>Please upload the file from local disk</b></p>
+<label for="myfile">Select file from desktop:</label><br>
+<input type="file" id="myfile" name="myfile" value="choose file"><br><br>
+<input type="submit">
+<input type="reset">
+</form>
+<h3>Grouping data form with Field set</h3>
+<p style="color: blue;">The fieldset is used for grouping data in form.While Legend is used for defining the caption element from field set.</p>
+<form>
+<fieldset>
+    <legend> personal deatails</legend>
+    <label for="fname">FirstName is</label><br>
+    <input type="text" id="fname" name="fname" value="Levi"><br>
+    <label for="lname">LastName is</label><br>
+    <input type="text" id="lname" name="lname" value="Brown Aiden"><br>
+    <label for="datemax">My birthday:</label>
+    <input type="date" id="datemax" name="Birthday" max="2005-06-21"><br><br>
+</fieldset>
+<h4>Please create the user name and passworp</h4>
+<label for="email">Enter your email here</label><br>
+<input type="email" id="email" name="email"><br>
+<label for="username">Username:</label><br>
+<input type="text" id="username" name="username"><br>
+<label for="psw">Password</label><br>
+<input type="password" id="psw" name="password"><br><br>
+<input type="submit">
+</form>
+    </body>
+</html>

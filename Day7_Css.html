@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* body{
+                background-image: url(Image.jpg), url(cats.jpg);
+                background-position: right bottom, left top;
+                background-repeat: no-repeat, repeat;
+            } */
+            #rcorner1{
+                border-radius: 25px;
+                border: 1px solid black;
+                background-color: aquamarine;
+                width: 200px;
+                height: 150px;
+                padding: 25px;
+                margin: 20px;
+            }
+            #rcorner2{
+                border-radius: 25px;
+                border: 2px solid green;
+                width: 200px;
+                height:150px;
+               
+            }
+            #rcorner3{
+                border-radius: 20px;
+                border: double blue;
+                width: 200px;
+                height: 180px;
+                padding: 15px;
+            }
+            #img1{
+            border: 10px solid transparent;
+            padding: 15px;
+            border-image: url(Image.jpg) 50 round;
+            width: 400px;  
+            margin: 15px;  
+            }
+            #img2{
+                border: 10px solid transparent;
+                padding: 15px;
+                border-image: url(Image.jpg) 30% round;
+                width: 400px;  
+            }
+            #img3{
+                border: 10px solid transparent;
+                padding: 15px;
+                border-image: url(design.png) 20% round;
+                width: 400px;  
+            }
+            #img4{
+                border: 10px solid transparent;
+                padding: 15px;
+                border-image: url(Image.jpg) 30% stretch;
+                width: 400px;  
+            }
+         </style>
+    </head>
+    <body>
+        <h1 style="color: chocolate;">The border-radius property in CSS</h1>
+        <p><strong>This is round one corner radius</strong></p>
+        <p id="rcorner1">Rounded corner 1!</p>
+        <p><i>This is the second round corner radius without background color</i></p>
+        <p id="rcorner2">Rounded corner@2</p>
+        <p>This is the third rounded corned with dotted &border</p>
+        <p id="rcorner3">Rounded corner&3</p>
+        <h2 style="color: blue;">The css border using image</h2>
+        <p><b>Here is the real image </b></p>
+        <img src="Image.jpg" alt="Image f" style="width: 200px;" height="150px">
+<p id="img1">border-image:url(design.png) 50% for round;</p>
+<p id="img2">border-image:url(design.png) 30% for round;</p>
+<p id="img3">border-image:url(design.png) 20% for round;</p>
+<p id="img4">border-image:url(design.png) 30% for stretching;</p>
+    </body>
+</html>
